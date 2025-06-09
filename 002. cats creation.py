@@ -1,3 +1,7 @@
+#The program tries to create a picture of the cat's head from the full picture of the cat. It fails, because it can't understand the spatial structure of the image (so it can't understand where the cat's face is).
+#The program is 10-layer feed-forward neural network with 50 neurons in the hidden layers.
+#The training data and results are saved in the cats_data.zip archive.
+#The comments during creating of the program are below the text of this program.
 from PIL import Image
 from skimage.io import imread
 from skimage.transform import resize
